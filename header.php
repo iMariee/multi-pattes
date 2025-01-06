@@ -18,3 +18,5 @@
   </header>
 </body>
 </html>
+
+<?php echo esc_html( get_the_title() ); ?>
