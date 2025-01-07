@@ -4,3 +4,4 @@
 */
 ?>
 Contact html
+<?php the_field("email"); ?>
