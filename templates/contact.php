@@ -4,4 +4,8 @@
 */
 ?>
 Contact html
-<?php the_field("email"); ?>
+<?php the_field(selector:"email"); ?>
+
+<?php 
+    $coordinates = get_field( selector: '$coordinates');
+?>
