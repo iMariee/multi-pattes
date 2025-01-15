@@ -12,3 +12,5 @@ function add_script() {
   add_action( 'wp_enqueue_scripts', 'add_script' );
 
 ?>
+
+<?php add_image_size( 'custom_size', 50, 50, true ); ?>
